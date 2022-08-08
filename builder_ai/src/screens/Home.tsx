@@ -24,6 +24,7 @@ const Home: React.FC<Props> = ({ navigation }) => {
                 <TouchableRipple
                     onPress={createSlots}
                     rippleColor="rgba(0,0,0,.3)"
+                    testID="create-slots-button"
                 >
                     <List.Item title="Create slots" />
                 </TouchableRipple>
